@@ -5,7 +5,7 @@
 <html>
 
 <head>
-  <title>Signature Templates Form</title>
+  <title>Modèles de signature</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.1/css/fabric.min.css"/>
   <link href="../CSS/assignsignature.css" rel="stylesheet" type="text/css" media="all" />
@@ -20,27 +20,27 @@
 <body>  
   <div class="container-taskp">
 
-    <p class="templates">TEMPLATE A</p>
+    <p class="templates">MODÈLE A</p>
     <div id="box_1"></div>
-    <button class="testBtn" onclick="test_template_A()">Test</button>
+    <button class="testBtn" onclick="test_template_A()">Tester</button>
 
-    <p class="templates">TEMPLATE B</p>
+    <p class="templates">MODÈLE B</p>
     <div id="box_2"></div>
-    <button class="testBtn" onclick="test_template_B()">Test</button>
+    <button class="testBtn" onclick="test_template_B()">Tester</button>
 
-    <p class="templates">TEMPLATE C</p>
+    <p class="templates">MODÈLE C</p>
     <div id="box_3"></div>
-    <button class="testBtn" onclick="test_template_C()">Test</button>
+    <button class="testBtn" onclick="test_template_C()">Tester</button>
 
     <div style="height:35px;"><br/></div>
 
     <div class="dropdown">
-      <label for="templates">New Mail
+      <label for="templates">Modèle pour nouveaux messages
         <select style="margin-left:62px;" id="new_mail">
-          <option value="none">None</option>
-          <option value="templateA">Template A</option>
-          <option value="templateB">Template B</option>
-          <option value="templateC">Template C</option>
+          <option value="none">Aucun</option>
+          <option value="templateA">Modèle A</option>
+          <option value="templateB">Modèle B</option>
+          <option value="templateC">Modèle C</option>
         </select>
       </label>
     </div>
@@ -48,36 +48,36 @@
     <div style="height:20px;"><br></div>
 
     <div class="dropdown">
-      <label for="templates">Reply
-          <select style="margin-left:85px;" id="reply">
-            <option value="none">None</option>
-            <option value="templateA">Template A</option>
-            <option value="templateB">Template B</option>
-            <option value="templateC">Template C</option>
-          </select>
+        <label for="templates">Modèle pour réponses
+            <select style="margin-left:85px;" id="reply">
+                <option value="none">Aucun</option>
+                <option value="templateA">Modèle A</option>
+                <option value="templateB">Modèle B</option>
+                <option value="templateC">Modèle C</option>
+            </select>
         </label>
     </div>
 
     <div style="height:20px;"><br></div>
 
     <div class="dropdown">
-      <label for="templates">Forward
-        <select style="margin-left:71px;" id="forward">
-          <option value="none">None</option>
-          <option value="templateA">Template A</option>
-          <option value="templateB">Template B</option>
-          <option value="templateC">Template C</option>
-        </select>
-      </label>
+        <label for="templates">Modèle pour transferts
+            <select style="margin-left:71px;" id="forward">
+                <option value="none">Aucun</option>
+                <option value="templateA">Modèle A</option>
+                <option value="templateB">Modèle B</option>
+                <option value="templateC">Modèle C</option>
+            </select>
+        </label>
     </div>
 
     <div style="height:15px;"><br></div>
 
-    <p id="newMApt"><strong>Appointments</strong> will use <strong>New Mail</strong> template.</p>
+    <p id="newMApt">Les<strong>événements</strong> utilisent le modèle de <strong>nouveaux messages</strong>.</p>
 
     <div style="height:5px;"><br></div>
 
-    <p id="override_sig">Override Outlook signature</p>
+    <p id="override_sig">Toujours remplacer la signature Outlook</p>
 
     <label style = "position:relative; left:230px; top:2.5px;" class="switch">
       <input id="checkbox_sig" type="checkbox" checked>
@@ -86,11 +86,11 @@
 
     <div style="height:60px;"><br></div>
 
-    <button id="edit_button" type="submit" class="registerbtn" onclick="navigate_to_taskpane2()">Edit</button>
+    <button id="edit_button" type="submit" class="registerbtn" onclick="navigate_to_taskpane2()">Modifier mes informations</button>
 
-    <button id="submit_button" type="submit" class="registerbtn" onclick="save_signature_settings()">Save</button>
+    <button id="submit_button" type="submit" class="registerbtn" onclick="save_signature_settings()">Enregistrer</button>
 
-    <p id="message">Success! You can close this pane.</p>
+    <p id="message">Enregistré avec succès! Vous pouvez fermer ce panneau.</p>
 
 
   </div>
