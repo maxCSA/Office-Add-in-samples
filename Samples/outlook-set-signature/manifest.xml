@@ -4,13 +4,13 @@
   xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="MailApp">
   <Id>{C341AD31-BF7A-4C1D-99F1-D2E5896BEB0A}</Id>
-  <Version>1.0</Version>
+  <Version>1.1</Version>
   <ProviderName>Microsoft</ProviderName>
-  <DefaultLocale>en-us</DefaultLocale>
-  <DisplayName DefaultValue="PnP set signature sample"/>
-  <Description DefaultValue="Insert your signature with ease."/>
-  <IconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/final_logo.png"/>
-  <HighResolutionIconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/final_logo.jpg"/>
+  <DefaultLocale>fr-ca</DefaultLocale>
+  <DisplayName DefaultValue="Signatures de courriel CSSDA"/>
+  <Description DefaultValue="Gestion des signatures de courriel pour le CSSDA."/>
+  <IconUrl DefaultValue="https://github.com/maxCSA/Office-Add-in-samples/raw/main/Samples/outlook-set-signature/assets/final_logo.png"/>
+  <HighResolutionIconUrl DefaultValue="https://github.com/maxCSA/Office-Add-in-samples/raw/main/Samples/outlook-set-signature/assets/final_logo.jpg"/>
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
 
   <Requirements>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/src/taskpane/HTML/editsignature.html"/>
+        <SourceLocation DefaultValue="https://github.com/maxCSA/Office-Add-in-samples/raw/main/Samples/outlook-set-signature/src/taskpane/HTML/editsignature.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -116,12 +116,12 @@
       </Hosts>
       <Resources>
         <bt:Images>
-          <bt:Image id="Icon16x16" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/final_logo.png"></bt:Image>
+          <bt:Image id="Icon16x16" DefaultValue="https://github.com/maxCSA/Office-Add-in-samples/raw/main/Samples/outlook-set-signature/assets/final_logo.png"></bt:Image>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="residUrl0" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/src/taskpane/HTML/editsignature.html"></bt:Url>
-          <bt:Url id="Autorun" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/src/runtime/HTML/autorunweb.html"></bt:Url>
-          <bt:Url id="runtimeJs" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/src/runtime/Js/autorunshared.js"></bt:Url>
+          <bt:Url id="residUrl0" DefaultValue="https://github.com/maxCSA/Office-Add-in-samples/raw/main/Samples/outlook-set-signature/src/taskpane/HTML/editsignature.html"></bt:Url>
+          <bt:Url id="Autorun" DefaultValue="https://github.com/maxCSA/Office-Add-in-samples/raw/main/Samples/outlook-set-signature/src/runtime/HTML/autorunweb.html"></bt:Url>
+          <bt:Url id="runtimeJs" DefaultValue="https://github.com/maxCSA/Office-Add-in-samples/raw/main/Samples/outlook-set-signature/src/runtime/Js/autorunshared.js"></bt:Url>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="residGL0" DefaultValue="Signature Injector"></bt:String>
